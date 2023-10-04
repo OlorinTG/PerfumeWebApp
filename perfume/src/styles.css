@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: rgb(195, 226, 230);
+}
+#heroImage {
+    width: 70%;
+    height: 70%;
+    align-items: center;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5%;  /* Adjust padding as per your design */
+}
+
+
+h1{
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+h2, h3{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+}
+
+/* ... existing CSS ... */
+
+nav {
+    background-color: rgb(234, 132, 236); /* Your preferred color */
+    padding: 30px 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white; /* Adjust as per your design */
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjusted to 100% of the viewport height */
+}
