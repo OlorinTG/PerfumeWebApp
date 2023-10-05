@@ -37,33 +37,7 @@ h2, h3{
 
 /* ... existing CSS ... */
 
-nav {
-    background-color: rgb(234, 132, 236); /* Your preferred color */
-    padding: 30px 15px;
-    text-align: center;
-}
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: white; /* Adjust as per your design */
-    font-size: 25px;
-    font-weight: bold;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
 .container {
     display: flex;
     flex-direction: column;
