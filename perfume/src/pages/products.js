@@ -1,5 +1,5 @@
 
-import  armaniCode from './assets/ArmaniCode.jpeg';
+import  armaniCode from '../assets/ArmaniCode.jpeg';
 
 
 export const PRODUCTS= [
